@@ -1,0 +1,4 @@
+<launch>
+  <arg name="network_interface" default="wlp4s0"/>
+  <node pkg="ros_inspector" type="interface_sniffer.py" name="network_sniffer_node" output="screen"/>
+</launch>
